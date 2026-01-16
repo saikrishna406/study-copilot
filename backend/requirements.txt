@@ -1,0 +1,28 @@
+# Python FastAPI Backend Dependencies
+# Windows-compatible version (all pre-built wheels)
+
+# FastAPI Core
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Pydantic (let pip choose compatible version)
+pydantic>=2.0
+pydantic-settings
+
+# Supabase
+supabase
+postgrest
+
+# OpenAI
+openai
+
+# PDF Processing
+PyPDF2
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Utilities
+python-dotenv
